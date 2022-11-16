@@ -17,7 +17,7 @@ const person = {
 window.name = 'merve'
 const person = {
     name ='meryem',
-    fullName= () => {
+    fullName:() => {
         console.log(this); //5
         console.log(this.name); //6
 
