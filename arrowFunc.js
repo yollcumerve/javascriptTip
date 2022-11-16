@@ -12,6 +12,8 @@ const person = {
     }
 }
 
+------------------------
+
 window.name = 'merve'
 const person = {
     name ='meryem',
@@ -25,3 +27,21 @@ const person = {
         },2000)
     }
 }
+
+---------------------
+window.name = 'merve';
+const person = {
+    name: 'meryem',
+    full:function(){
+        console.log(this); //9
+        console.log(this.name); //10
+        
+         setTimeout(() => {
+            console.log(this); //11
+            console.log(this.name) //12
+        },2000)
+    }
+}
+
+
+
